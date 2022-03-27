@@ -23,8 +23,21 @@ const Shop = () => {
         if (existsItem.length) {
             return alert('Already added item');
         }
+
         const newCart = [...cart, product];
         setCart(newCart);
+
+        if (newCart.length == 4) {
+            return alert('You can not add more then 4 items');
+        }
+        // const removeCart = (deleteCart) => {
+        //     const remove = cart.filter(item => item.id !== deleteCart.id);
+        //     setCart(remove);
+        //     newCart = [];
+        //     removeCart();
+        // }
+
+
     }
 
     const removeItem = (deleteItem) => {
@@ -61,6 +74,8 @@ const Shop = () => {
                         cart.map(data => <Cart key={data.id} data={data}
                             removeItem={removeItem}
                             randomSelect={randomSelect}
+
+                        // removeCart={removeCart}
 
                         />)
 
