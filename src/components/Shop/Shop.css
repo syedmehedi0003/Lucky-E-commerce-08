@@ -37,7 +37,7 @@
     }
 }
 
-@media screen and (max-width: 556px) {
+@media screen and (max-width: 576px) {
 
     .shop-container{
         display: grid;
