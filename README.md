@@ -1,7 +1,7 @@
 # Lucky One
 Assignment-08
 
-This is website link [Link](https://strong-croissant-b180ef.netlify.app/)
+This is website link [Click Here](https://strong-croissant-b180ef.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
