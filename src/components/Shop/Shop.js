@@ -69,7 +69,7 @@ const Shop = () => {
                 </div>
                 <button className='chose' onClick={() => randomSelect()}> Choose 1 for me</button>
 
-                <button >Chose again</button>
+                <button className='chose'>Chose again</button>
             </div>
         </div>
     );
