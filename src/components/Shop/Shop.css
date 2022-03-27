@@ -24,10 +24,11 @@
     color: red;
     text-align: center;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     display: block;
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 

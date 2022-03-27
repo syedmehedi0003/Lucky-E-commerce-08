@@ -10,10 +10,10 @@
     },
     {
         "id": 2,
-        "name": "Hp-002",
+        "name": "Walton-002",
         "price": 60500,
-        "brand": "HP",
-        "img": "images/img2-RE3LD4T.jpg",
+        "brand": "Walton",
+        "img": "images/img12-tamarind.jpg",
         "shipping": 1,
         "quantity": 0
     },
@@ -77,6 +77,33 @@
         "price": 70500,
         "brand": "Dell",
         "img": "images/img9-geforce-amp-rtx-30-series-laptops-og-1200x630.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": 10,
+        "name": "Asus-010",
+        "price": 80500,
+        "brand": "Asus",
+        "img": "images/img-11-164462775647.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": 11,
+        "name": "Dell-011",
+        "price": 70500,
+        "brand": "Dell",
+        "img": "images/img2-RE3LD4T.jpg",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": 12,
+        "name": "Hp-012",
+        "price": 50500,
+        "brand": "Hp",
+        "img": "images/img13-IMG_20201021_193418.jpg",
         "shipping": 1,
         "quantity": 0
     }
