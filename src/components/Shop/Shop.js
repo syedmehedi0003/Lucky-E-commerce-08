@@ -7,7 +7,7 @@ const Shop = () => {
 
     const [products, setproducts] = useState([]);
     const [cart, setCart] = useState([]);
-    // const [remove, setRemove] = useState([]);
+
 
     useEffect(() => {
         fetch('data.json')
@@ -27,15 +27,10 @@ const Shop = () => {
         const newCart = [...cart, product];
         setCart(newCart);
 
-        if (newCart.length == 4) {
+        if (newCart.length === 4) {
             return alert('You can not add more then 4 items');
         }
-        // const removeCart = (deleteCart) => {
-        //     const remove = cart.filter(item => item.id !== deleteCart.id);
-        //     setCart(remove);
-        //     newCart = [];
-        //     removeCart();
-        // }
+
 
 
     }
@@ -69,22 +64,24 @@ const Shop = () => {
             </div>
             <div className="cart-container">
                 <div>
-                    <h3>Selected Items</h3>
+                    <p>Selected Items</p>
                     {
                         cart.map(data => <Cart key={data.id} data={data}
                             removeItem={removeItem}
                             randomSelect={randomSelect}
 
-                        // removeCart={removeCart}
 
                         />)
 
                     }
 
                 </div>
-                <button className='chose' onClick={() => randomSelect()}> Choose 1 for me</button>
+                <div className='btn-name'>
+                    <button className='chose' onClick={() => randomSelect()}> Chose 1 for me</button>
 
-                <button className='chose'>Chose again</button>
+                    <button onClick={() => setCart([])} className='chose btn-2'>Chose again</button>
+                </div>
+
             </div>
         </div>
     );

@@ -3,6 +3,8 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 14px;
+    position: sticky;
+    top: 0px;
 }
 .delete{
     font-size: 15px;
@@ -18,4 +20,13 @@
     height: 40px;
     width: 40px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .cart-info{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    } 
 }
